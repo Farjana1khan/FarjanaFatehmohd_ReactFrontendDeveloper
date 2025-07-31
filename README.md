@@ -71,21 +71,27 @@ npm start
 
 src/
 ├── components/
+
 │   └── Header.tsx
+
 │   └── ProductCard.tsx
+
 |   └── ProductSection.tsx
+
 ├── context/
+
 │   └── ThemeContext.tsx
+
 ├── pages/
+
 │   └── Home.tsx
+
 │   └── About.tsx
+
 │   └── Contact.tsx
+
 ├── App.tsx
+
 └── index.tsx
-📝 Credits
-FakeStoreAPI for product data
 
-Tailwind CSS
-
-Google Fonts - Pacifico
 
