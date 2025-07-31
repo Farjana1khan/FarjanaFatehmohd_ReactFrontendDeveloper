@@ -15,7 +15,7 @@ const ProductCard: React.FC<Props> = ({ title, description, image, price }) => {
       ? 'animate-slide-in-right'
       : '';
 
-  const buttonAnimation = theme === 'theme2' ? 'animate-bounce-in' : '';
+  const bounceAnimation = theme === 'theme2' ? 'animate-bounce-in' : '';
 
   return (
     <div className={`bg-white dark:bg-white p-4 rounded shadow w-full max-w-full mx-auto ${cardAnimation}`}>
@@ -26,14 +26,14 @@ const ProductCard: React.FC<Props> = ({ title, description, image, price }) => {
           className="max-h-full max-w-full object-contain"
         />
       </div>
-<div className={`${buttonAnimation}`}>
+<div className={`${bounceAnimation}`}>
    <h4 className="text-md truncate">{title}</h4>
       <p className="text-sm line-clamp-2">{description}</p>
       <div className="my-2">${price}</div>
 </div>
    
 
-      <button className={`w-full py-2 text-sm rounded justify-center border ${buttonAnimation}`}>
+      <button className={`w-full py-2 text-sm rounded justify-center border ${bounceAnimation}`}>
         Buy Now
       </button>
     </div>
