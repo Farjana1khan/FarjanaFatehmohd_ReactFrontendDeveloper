@@ -1,6 +1,8 @@
 # Multi-theme-switcher-app
 A modern React + TypeScript application that allows users to switch between three distinct visual themes. Each theme not only changes the color palette but also adjusts the layout, fonts, and spacing to give a unique user experience. The theme persists across pages and reloads using localStorage.
- Available Themes
+
+# Available Themes
+
  Theme 1: Minimalist Light (Default)
 Light background with subtle contrast
 
@@ -22,7 +24,7 @@ Card-based grid layout
 
 Google Font: Pacifico for a fun, lively feel
 
- Features
+# Features
  Three distinct themes
 
  Theme persists across routes and reloads
@@ -39,7 +41,7 @@ Google Font: Pacifico for a fun, lively feel
 
  Mobile sidebar adapts to theme
 
-⚙️ Tech Stack
+# ⚙️ Tech Stack
 React (with Hooks)
 
 TypeScript
@@ -55,6 +57,7 @@ LocalStorage (for persistence)
 Google Fonts (Pacifico)
 
 How to Run 
+
 # 1. Clone the repository
 [multi-theme-switcher-app](https://github.com/Farjana1khan/Multi-theme-switcher-app/)
 
@@ -70,6 +73,7 @@ npm start
 📁 Folder Structure
 
 src/
+
 ├── components/
 
 │   └── Header.tsx
