@@ -27,11 +27,11 @@ const Header: React.FC = () => {
       : 'bg-gray-100';
 
   return (
-    <header className={`w-full ${navBase} shadow-2xl fixed top-0 z-50 px-6 py-3 flex justify-between items-center`}>
+    <header className={`w-full ${navBase} shadow-2xl fixed top-0 z-50 px-6 py-5 flex justify-between items-center`}>
       <div className="text-lg ">Multi-Theme App</div>
 
       {/* Desktop Navigation */}
-      <nav className={`hidden md:flex gap-4 items-center`}>
+      <nav className={`hidden md:flex gap-4 items-center ${theme === 'theme2' ? 'hidden' : ''}`}>
         <Link to="/" className="hover:underline">Home</Link>
         <Link to="/about" className="hover:underline">About</Link>
         <Link to="/contact" className="hover:underline">Contact</Link>
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Navigation */}
       <div
-        className={`fixed top-14 right-0 w-64 h-[calc(100vh-3.5rem)] p-4 z-40
+        className={`fixed top-14 right-0 w-80 h-[calc(100vh-3.5rem)] p-4 z-40
         transform transition-transform duration-300 ease-in-out
         ${open ? 'translate-x-0' : 'translate-x-full'}
         md:hidden flex flex-col gap-4 shadow-xl ${navBase}`}
