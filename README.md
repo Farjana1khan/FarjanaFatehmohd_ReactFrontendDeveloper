@@ -56,7 +56,7 @@ LocalStorage (for persistence)
 
 Google Fonts (Pacifico)
 
-How to Run 
+# How to Run 
 
 # 1. Clone the repository
 [multi-theme-switcher-app](https://github.com/Farjana1khan/Multi-theme-switcher-app/)
