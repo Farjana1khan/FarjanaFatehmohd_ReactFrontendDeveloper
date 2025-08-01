@@ -59,7 +59,7 @@ Google Fonts (Pacifico)
 # How to Run 
 
 # 1. Clone the repository
-[multi-theme-switcher-app](https://github.com/Farjana1khan/Multi-theme-switcher-app/)
+[multi-theme-switcher-app](https://github.com/Farjana1khan/FarjanaFatehmohd_ReactFrontendDeveloper.git)
 
 # 2. Navigate to the project
 cd multi-theme-switcher-app
